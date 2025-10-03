@@ -1,0 +1,17 @@
+# Ignore development and local files not needed in Google Apps Script
+node_modules/
+package.json
+package-lock.json
+yarn.lock
+.npm/
+.git/
+.gitignore
+README.md
+.claspignore
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.tmp
+dist/
+build/
