@@ -14,6 +14,9 @@
  * - Handles data validation and error logging.
  * - Maintains state to avoid reprocessing existing entries. In other words, it only creates slides for new form submissions.
  *
+ * Required APIs:
+ * - Google Slides API (enabled as advanced service in appsscript.json)
+ *
  * Setup Instructions:
  * 1. Create a Google Form with the following fields:
  *    - Short answer (open-ended): "YOUR first and last name:"
