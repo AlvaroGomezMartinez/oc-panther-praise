@@ -135,6 +135,9 @@ function textMerging() {
     } catch (err) {
       throw new Error(`Failed to open spreadsheet or retrieve data: ${err.message}`);
     }
+    if (!sheet) {
+      throw new Error('Form Responses 1 sheet not found. Please ensure the sheet exists and is named correctly.');
+    }
 
     try {
       // Open template and target decks
